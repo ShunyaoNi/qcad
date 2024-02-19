@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qcadecmaapi", "D:/Source/qcad-qt/src/scripting/ecmaapi\qcadecmaapi.vcxproj", "{61872E03-04B8-3232-81C3-B32633E31ED6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61872E03-04B8-3232-81C3-B32633E31ED6}.Debug|x64.ActiveCfg = Debug|x64
+		{61872E03-04B8-3232-81C3-B32633E31ED6}.Debug|x64.Build.0 = Debug|x64
+		{61872E03-04B8-3232-81C3-B32633E31ED6}.Release|x64.ActiveCfg = Release|x64
+		{61872E03-04B8-3232-81C3-B32633E31ED6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

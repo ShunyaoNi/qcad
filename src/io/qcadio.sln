@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qcaddxf", "D:/Source/qcad-qt/src/io/dxf\qcaddxf.vcxproj", "{909823D4-657D-3ECF-B1F2-6B1C09289A77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{909823D4-657D-3ECF-B1F2-6B1C09289A77}.Debug|x64.ActiveCfg = Debug|x64
+		{909823D4-657D-3ECF-B1F2-6B1C09289A77}.Debug|x64.Build.0 = Debug|x64
+		{909823D4-657D-3ECF-B1F2-6B1C09289A77}.Release|x64.ActiveCfg = Release|x64
+		{909823D4-657D-3ECF-B1F2-6B1C09289A77}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

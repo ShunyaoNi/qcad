@@ -1,0 +1,728 @@
+<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
+  <FlowDocument.Tag><![CDATA[{
+  "timestamp": "2024-02-19 16:02:57",
+  "files": {
+    "D:\\Source\\qcad-qt\\src\\spatialindex\\qcadspatialindex.vcxproj": {
+      "before": "7Vt9U+JIHt6/r+q+Q4rypvQPCCLqzIDsIUSGWgQkMM5tUUXFpMXs5M10orC393Xuc96v3/ICQaOyzu2MU7uGdD/9/utfP/1057///Omn+s8L25LukI9N1zkp7JfKBQk5umuYzvykEAbXxfeFnxt//1t96Lu/IT2Q2uhaC61grPlzFOCTwmloWkZBglwceLsJAu+jLGP9BtkaLtmm7rvYvQ5KumvLBrpDlushX7bxFUkmV8rlgwLkLkn1boDsju+GntTTrpB1UuAFtlzn2pyHvhZABTEDAzwrVuo6uhUa6KQwQhbSMPpjcVQVKSBNKqsGx9TldDCpDPlXH1pacO36dgMyqcvRG4uHANYfWYkfqVwbXYXzB6tGEVuvWF2O+ph1OTQBBiNYprq9Y7lXmrXW0Z3QNBr/rp6dlStnSrN4uH92Wjw4LleK78vH7eLR0dl+q1o5quwrR/+J+oam4f01ct2gr9kIe5qOGre6ZsCvwNQs0zHQoi6n43miX9Dy3vWNxkVQ/azegW3WZRHEEZeQ3L3HzBrFGH1m1tzYL5fKpQqpFUn5IPSh7M5N5wk5JtAkU9oZcS9zW7c91w8kbkInhZ3dzy0+oYZacLM3PY/mTcvzSnzKlTwYL1yQ5KzRAzs0TDJFTgrvNM/FtZ3dlGnu/bGzK/pnjyFOTtgzMVlYQEFMwVQOYiJFE2PsuhZGQeNuv1qJJ4gI5T06CAMvDNqmD77D9ZeNUmkK//lsfk7r8mo8T9Yc96AjTdv8HeHWKHTGpo165pWv+csJ1uaocQ02iuryozieX+tG8zU9QL4KFe67ATxgfiUDBTDpbsZLDzXaS0cDP8ZLX5mVFMGTdh3I30aGqQUobnDc1Ox4nnjomzY0jnVHxvxIx5NEmZaVntIvMIrISb2WSRjEK/4IBiEa+hrm0H2ao0k7GJY4tTgoiwA5hCnA/AmAIcTeKAl+gdlt9kXCstUbBLwjckbrLZxg5JPVBKbgqiNNuMBSCDDhURMVRgsTB3iXWf3O7pMzYwn3Ii8tJzom6fxZtyYKFiVCUMx3HvDamybod9NPoiEpAyTjca4RUhn1cApHuxh8I/hRGH/pBf27bolZaxcUIoqE+bz9IlOrR6IwxhYIodpyG9eZWVxU1NK54/qIGTZfFrdci8APYXHvrpcjqtAzna/A9n1kIyfQrC0Xz8nFSiGi7Jfb1urc5ZYlVgZWgCju5Xa1VpwoiGUtCooH+iXduVbYN7CotTo8bE+ZTIrslYB4AwklrPrF7jrDnQjGabVc2zMtxMcBvFfTYFxes/iOFmY+5c8mwo1SDQi0DhNQPKc27BnIy9w3DfLEjubR99AkD5ghZrAkv8h2j+2jKUz3TY+s4vQFmmsjPxU+RbqtaR7NBAuwCJzOkUNyQ6zItWjN0Dzgw5jkaLpTY3FdozU/8A1Pg01nrf1RVt3Q15FMLKR4G8jY1+XfTVp1gZpaaK7py2lys+hoICPUWh+nF+PpYWn/sFSZnqufW5Xy/ofZUXVqMhHgUcD0IgBS7QRq6JHdWB68ejfPAxt4yOn08iA/IcvLg5uYdFuVB9pG2JzDyOTBTsyhFc5NJw/20jSI4JMHCvv+PLBmv9NT8gDV28eHG0bzi23B7hlszslVyz4KQFz4mqcCkHMemEonQX5k7jFtkdnOqUBNftTA7a/YQzqe3pvOQaVo4zu99o/dh3zKHmykH3I5zFOlHNMAPAfocY3ir/pH/06zQtTScCCRV9MBUQfRnzjwTT1Q4S/sFWhIcOO7UK95H93Tdx9dIx8ER3QKSg6E08DZTPesEJP/peL9QXW/XGbP9x/gWa1++HBEn9VD8Tzm7++lZEt5JVPNExWP24Qxsq8s5PeA+UMNeq5OfWQj5l7NTZAok1NoFUZdhwiGLDXnEOsRURq6SiWSnNG0oE44wH02RMaJTaxBpVUYaPPa1C813yF93KgeHh/XqtWjYxjydjYGumNDTLwCKQsd0RH+pDkGDOe8oS4dvS6vh0c1GlwRffgMFjJCSxO9txIRJ4ACQOBh3XWuLaAtyABFKBkcgYc+8nxXRxi7frws48bssttvDy7V2qTfbQ3aSm0mfkDEQaU2U/rN054yU76MlX5bac+avW6nD091PBg1O0oNYEfV2sV41u6qFNlWhiOl1RwD5lQ5G4yUk/KiTP/VLlrN9qzd69Ef6rA57kJukOuXWa97OmqO/lWDl9NJh2TXH8yi38PepNPtk9DhqNsfq5PhcDAak0QkTP3cET8HQwWconj7pPSG4vekOx4Meqp4bSsqacZIvE+6rAzxftltd5RxBO9MuiJGvYjy/3LegzaMlVE/AvaV8eVg9IsAA0L8VFuj7jCuM31LVakFXcXAUeWUL7SdvDJgkRtGESxyQ0xskTFg7BIjEwrgWnjCZNy5r9ltLdBO4TAgskxK9zJjoqSgOIJtCsWxcQ4HHub4xkeagQwYf5Cr04AoISETPhipGgDHCb1TzYGluMHoZ3ZclHQM2QeXRJOcBU1MjlWCrkP1RZZ8c3yUBfcCPXLO0qB/D0D3Zq6BBTIoiJgrpLNO9jpxZ8erQRsBmTHAQRPqSYgaYZ4ly7yqrVEyGrqRlkESWKMPk5QrVwLgXLlwjHTlghLWlQvIaVcurOBducCcTOXCApvKhQOWlAuXoEm58Jwn5cJC3rlwjCk9AUqpUi484UoUmCQCSStOsYFkRJb5c3kjuf/a2b0Yt7ujvSmZBO2PU7aJmfJNjDjaICwQtlsOxhYFwuskMC08tZczfGvBA/4WD0vHpcphEQgRHDKmcXCGE8zBlQDWm5O/pLhkm9arlmrZenTcPuISlQXSQ8LhwIHekS2i63A/tSk2cjMdvvNb5SjCJW+Mj3LIUnYe3qPTI1nipMD98nqKtyhXEpAQhUR1VoMjPGcaaCQ4KOY5Z0TEieiBFl2BdnaZUrNHBz/pD0uGZYmzLQqNko+AT7nkWMsgaxL4WbJa8GKz46KkanilLjHs0xv8KLMux0EJ1PNWoLpM+onbSP3cNKyEvbAzf7I20QVpAmcAsMcEssaPJqOYqBqKQ+ip4vuu37pB+lfMee16eJQktVCRA9ushStRsfoIYSogrOknMSd4I4uE2f5YZBHYWYZhsNsP8daBKnrUxOnVk5WIrSqgzMLrq5wrtZ9+E/rehD7gx29C38YNBJe9vn+hzyA3Id5kvteS+Wh3w8WTVxX54NBaKBBXwAO/A71PdGMutY/rj391tY8Iem/SHuiMry3trchvaX2OuM83kW5bIp2RS3UBlS4fkMl0+bBEp8uH5LQpH1godfnQXKrLByY3nvP1162VD5hQ6/Il4HJdPjDkng/IBLunYKlily8BkewYMqlvJaW5lLKVjIg1iliyzlC+HtHsGOP6ERU7Jrp9K8EO5DO4HP6mpb1paeSI9kUHr29UTJyy8mPn5x+2Pks/i+U0kLUipSvxRZbKPvfpks99+uQGV0n3vOgS7+qnSekvlWiWXCF7MMubJ2QY4sC16ddrcZZsE2O7+gxOcQ10jUs3Jf0qELfNoR7EWbHPQlw9JJdP63IUFCnZcEuCfIdmnPmihO1eRGZee62UrMWw64CHxVuVMzcqNOLe0TUcZIdwrjE14JxpaoS2vSSDnTq9YvVKressKG4EyPo2nJZste66JRVPF+9uQzeAL6T4Qd6V6Uxvbe0rKqEFYnFS0XEtd+7S60j3Oj2Ul4pnKruz9Kfed/rVlIrnbUMqXh6wS09PuPxUvDfIBSBIZ5A7QFJRkZ47WlLl3Tyo9Sc9iTwzJgb5EooOUDxi53CWBR9nbXXEBDeRUrOyLvOy4sIZmdiuqWc0G6yYlwTGy3/xSkCPxE5FhCWCYj8jrpal2vQcTxOz3pdP9Iwrys81nm8w1TNq/xeY7IMKmez/X3M90zj/nNmeMWivOd8zis9s/ANzHijB2jq8Vf/38Fq/7nLWvvJeo1Irp6OxV0rdYPD1zVzqaV8VwlU4cnM8yi7xRZz40Dj6rpB9g8Kx9KIeuVTa+B8=",
+      "after": "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"
+    }
+  }
+}]]></FlowDocument.Tag>
+  <Section Margin="0,24" TextAlignment="Center">
+    <Paragraph FontSize="24" FontWeight="Bold" Margin="12,0">
+      <LineBreak />
+      <Span Foreground="Gray">Qt Visual Studio Tools</Span>
+    </Paragraph>
+    <Paragraph FontSize="42" Margin="12,0" FontWeight="Bold">
+      <Span TextDecorations="Underline">Project Format Conversion</Span>
+    </Paragraph>
+    <Paragraph Margin="12,8" FontSize="18">
+      <Span>Report generated on 2024-02-19 16:02:57</Span>
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Files</Span>
+    </Paragraph>
+    <Paragraph Margin="24,12,0,0">
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+      <LineBreak />
+      <Hyperlink NavigateUri="file://D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj?diff&amp;before&amp;after">
+                        [Diff before/after]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj?diff&amp;before&amp;current">
+                        [Diff before/current]
+                    </Hyperlink>
+      <Hyperlink NavigateUri="file://D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj?diff&amp;after&amp;current">
+                        [Diff after/current]
+                    </Hyperlink>
+      <LineBreak />
+    </Paragraph>
+  </Section>
+  <Section>
+    <Paragraph FontSize="32" FontWeight="Bold" Margin="12,0">
+      <Span>Changes</Span>
+    </Paragraph>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Converting custom build steps to Qt/MSBuild items]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>.;..]]></Span><Span><![CDATA[\core;..\core\math;..\grid;..\snap;..\gui;..\entity;..\operations;..\scripting;..\stemmer;..\scripting\ecmaapi;..\scripting\ecmaapi\generated;..\scripting\ecmaapi\adapters;..\io\dxf]]></Span><Span Background="LightCoral"><![CDATA[;.;..]]></Span><Span><![CDATA[\3rdparty;D:/Source/qcad-qt/src/zip;..\3rdparty\legacy\spatialindexnavel;C:\QT\5.15.2\MSVC2019_64\include;C:\QT\5.15.2\MSVC2019_64\include\QtPrintSupport;C:\QT\5.15.2\MSVC2019_64\include\QtSvg;C:\QT\5.15.2\MSVC2019_64\include\QtOpenGL;C:\QT\5.15.2\MSVC2019_64\include\QtHelp;C:\QT\5.15.2\MSVC2019_64\include\QtUiTools;C:\QT\5.15.2\MSVC2019_64\include\QtDesigner;C:\QT\5.15.2\MSVC2019_64\include\QtUiPlugin;C:\QT\5.15.2\MSVC2019_64\include\QtWidgets;C:\QT\5.15.2\MSVC2019_64\include\QtGui;C:\QT\5.15.2\MSVC2019_64\include\QtANGLE;C:\QT\5.15.2\MSVC2019_64\include\QtSql;C:\QT\5.15.2\MSVC2019_64\include\QtXmlPatterns;C:\QT\5.15.2\MSVC2019_64\include\QtNetwork;C:\QT\5.15.2\MSVC2019_64\include\QtXml;C:\QT\5.15.2\MSVC2019_64\include\QtScript;C:\QT\5.15.2\MSVC2019_64\include\QtScriptTools;C:\QT\5.15.2\MSVC2019_64\include\QtCore;release;/include;C:\QT\5.15.2\MSVC2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..]]></Span><Span><![CDATA[\core;..\core\math;..\grid;..\snap;..\gui;..\entity;..\operations;..\scripting;..\stemmer;..\scripting\ecmaapi;..\scripting\ecmaapi\generated;..\scripting\ecmaapi\adapters;..\io\dxf]]></Span><Span Background="LightGreen"><![CDATA[;..]]></Span><Span><![CDATA[\3rdparty;D:/Source/qcad-qt/src/zip;..\3rdparty\legacy\spatialindexnavel;C:\QT\5.15.2\MSVC2019_64\include;C:\QT\5.15.2\MSVC2019_64\include\QtPrintSupport;C:\QT\5.15.2\MSVC2019_64\include\QtSvg;C:\QT\5.15.2\MSVC2019_64\include\QtOpenGL;C:\QT\5.15.2\MSVC2019_64\include\QtHelp;C:\QT\5.15.2\MSVC2019_64\include\QtUiTools;C:\QT\5.15.2\MSVC2019_64\include\QtDesigner;C:\QT\5.15.2\MSVC2019_64\include\QtUiPlugin;C:\QT\5.15.2\MSVC2019_64\include\QtWidgets;C:\QT\5.15.2\MSVC2019_64\include\QtGui;C:\QT\5.15.2\MSVC2019_64\include\QtANGLE;C:\QT\5.15.2\MSVC2019_64\include\QtSql;C:\QT\5.15.2\MSVC2019_64\include\QtXmlPatterns;C:\QT\5.15.2\MSVC2019_64\include\QtNetwork;C:\QT\5.15.2\MSVC2019_64\include\QtXml;C:\QT\5.15.2\MSVC2019_64\include\QtScript;C:\QT\5.15.2\MSVC2019_64\include\QtScriptTools;C:\QT\5.15.2\MSVC2019_64\include\QtCore;release;/include;C:\QT\5.15.2\MSVC2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalIncludeDirectories>.;..]]></Span><Span><![CDATA[\core;..\core\math;..\grid;..\snap;..\gui;..\entity;..\operations;..\scripting;..\stemmer;..\scripting\ecmaapi;..\scripting\ecmaapi\generated;..\scripting\ecmaapi\adapters;..\io\dxf]]></Span><Span Background="LightCoral"><![CDATA[;.;..]]></Span><Span><![CDATA[\3rdparty;D:/Source/qcad-qt/src/zip;..\3rdparty\legacy\spatialindexnavel;C:\QT\5.15.2\MSVC2019_64\include;C:\QT\5.15.2\MSVC2019_64\include\QtPrintSupport;C:\QT\5.15.2\MSVC2019_64\include\QtSvg;C:\QT\5.15.2\MSVC2019_64\include\QtOpenGL;C:\QT\5.15.2\MSVC2019_64\include\QtHelp;C:\QT\5.15.2\MSVC2019_64\include\QtUiTools;C:\QT\5.15.2\MSVC2019_64\include\QtDesigner;C:\QT\5.15.2\MSVC2019_64\include\QtUiPlugin;C:\QT\5.15.2\MSVC2019_64\include\QtWidgets;C:\QT\5.15.2\MSVC2019_64\include\QtGui;C:\QT\5.15.2\MSVC2019_64\include\QtANGLE;C:\QT\5.15.2\MSVC2019_64\include\QtSql;C:\QT\5.15.2\MSVC2019_64\include\QtXmlPatterns;C:\QT\5.15.2\MSVC2019_64\include\QtNetwork;C:\QT\5.15.2\MSVC2019_64\include\QtXml;C:\QT\5.15.2\MSVC2019_64\include\QtScript;C:\QT\5.15.2\MSVC2019_64\include\QtScriptTools;C:\QT\5.15.2\MSVC2019_64\include\QtCore;debug;/include;C:\QT\5.15.2\MSVC2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;..]]></Span><Span><![CDATA[\core;..\core\math;..\grid;..\snap;..\gui;..\entity;..\operations;..\scripting;..\stemmer;..\scripting\ecmaapi;..\scripting\ecmaapi\generated;..\scripting\ecmaapi\adapters;..\io\dxf]]></Span><Span Background="LightGreen"><![CDATA[;..]]></Span><Span><![CDATA[\3rdparty;D:/Source/qcad-qt/src/zip;..\3rdparty\legacy\spatialindexnavel;C:\QT\5.15.2\MSVC2019_64\include;C:\QT\5.15.2\MSVC2019_64\include\QtPrintSupport;C:\QT\5.15.2\MSVC2019_64\include\QtSvg;C:\QT\5.15.2\MSVC2019_64\include\QtOpenGL;C:\QT\5.15.2\MSVC2019_64\include\QtHelp;C:\QT\5.15.2\MSVC2019_64\include\QtUiTools;C:\QT\5.15.2\MSVC2019_64\include\QtDesigner;C:\QT\5.15.2\MSVC2019_64\include\QtUiPlugin;C:\QT\5.15.2\MSVC2019_64\include\QtWidgets;C:\QT\5.15.2\MSVC2019_64\include\QtGui;C:\QT\5.15.2\MSVC2019_64\include\QtANGLE;C:\QT\5.15.2\MSVC2019_64\include\QtSql;C:\QT\5.15.2\MSVC2019_64\include\QtXmlPatterns;C:\QT\5.15.2\MSVC2019_64\include\QtNetwork;C:\QT\5.15.2\MSVC2019_64\include\QtXml;C:\QT\5.15.2\MSVC2019_64\include\QtScript;C:\QT\5.15.2\MSVC2019_64\include\QtScriptTools;C:\QT\5.15.2\MSVC2019_64\include\QtCore;debug;/include;C:\QT\5.15.2\MSVC2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Enabling multi-processor compilation]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[      <MultiProcessorCompilation>true</MultiProcessorCompilation>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Project format version]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightCoral"><![CDATA[<Keyword>Qt4VSv1.0</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<Keyword>QtVS_v304</Keyword>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Fallback for QTMSBUILD environment variable]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Default Qt properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt build settings]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Warn if Qt/MSBuild is not found]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </Target>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt property sheet]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <Import Project="$(QtMsBuild)\Qt.props" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Qt targets]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Copying Qt build reference to QtInstall project property]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[  ]]></Span><Span Background="LightCoral"><![CDATA[<PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[    ]]></Span><Span Background="LightGreen"><![CDATA[<QtInstall>5.15.2_msvc2019_64</QtInstall>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </PropertyGroup>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtInstall>5.15.2_msvc2019_64</QtInstall>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[  </PropertyGroup>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Removing Qt module macros from compiler properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADSPATIALINDEX_LIBRARY;NDEBUG;QT_NO_DEBUG;QT_PLUGIN;]]></Span><Span Background="LightCoral"><![CDATA[QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_HELP_LIB;QT_UITOOLS_LIB;QT_DESIGNER_LIB;QT_UIPLUGIN_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SQL_LIB;QT_XMLPATTERNS_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_SCRIPT_LIB;QT_SCRIPTTOOLS_LIB;QT_CORE_LIB;QDESIGNER_EXPORT_WIDGETS;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADSPATIALINDEX_LIBRARY;NDEBUG;QT_NO_DEBUG;QT_PLUGIN;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADSPATIALINDEX_LIBRARY;QT_PLUGIN;]]></Span><Span Background="LightCoral"><![CDATA[QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_HELP_LIB;QT_UITOOLS_LIB;QT_DESIGNER_LIB;QT_UIPLUGIN_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SQL_LIB;QT_XMLPATTERNS_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_SCRIPT_LIB;QT_SCRIPTTOOLS_LIB;QT_CORE_LIB;QDESIGNER_EXPORT_WIDGETS;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADSPATIALINDEX_LIBRARY;QT_PLUGIN;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Removing Qt module libraries from linker properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalDependencies>qcadcore.lib;spatialindexnavel.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\QT\5.15.2\MSVC2019_64\lib\Qt5PrintSupport.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Svg.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5OpenGL.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Help.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5UiTools.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Designer.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Widgets.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Gui.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Sql.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5XmlPatterns.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Network.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Xml.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Script.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5ScriptTools.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Core.lib;]]></Span><Span><![CDATA[%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalDependencies>qcadcore.lib;spatialindexnavel.lib;]]></Span><Span><![CDATA[%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalDependencies>qcadcore.lib;spatialindexnavel.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\QT\5.15.2\MSVC2019_64\lib\Qt5PrintSupportd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Svgd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5OpenGLd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Helpd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5UiToolsd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Designerd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Widgetsd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Guid.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Sqld.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5XmlPatternsd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Networkd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Xmld.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Scriptd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5ScriptToolsd.lib;C:\QT\5.15.2\MSVC2019_64\lib\Qt5Cored.lib;]]></Span><Span><![CDATA[%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <AdditionalDependencies>qcadcore.lib;spatialindexnavel.lib;]]></Span><Span><![CDATA[%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Removing Qt lib path from linker properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalLibraryDirectories>$(QTDIR)\lib;D:\Source\qcad-qt\release]]></Span><Span><![CDATA[;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalLibraryDirectories>D:\Source\qcad-qt\release]]></Span><Span><![CDATA[;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalLibraryDirectories>$(QTDIR)\lib;D:\Source\qcad-qt\debug]]></Span><Span><![CDATA[;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalLibraryDirectories>D:\Source\qcad-qt\debug]]></Span><Span><![CDATA[;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Removing Qt module macros from resource compiler properties]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADSPATIALINDEX_LIBRARY;NDEBUG;QT_NO_DEBUG;QT_PLUGIN;]]></Span><Span Background="LightCoral"><![CDATA[QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_HELP_LIB;QT_UITOOLS_LIB;QT_DESIGNER_LIB;QT_UIPLUGIN_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SQL_LIB;QT_XMLPATTERNS_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_SCRIPT_LIB;QT_SCRIPTTOOLS_LIB;QT_CORE_LIB;QDESIGNER_EXPORT_WIDGETS;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADSPATIALINDEX_LIBRARY;NDEBUG;QT_NO_DEBUG;QT_PLUGIN;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADSPATIALINDEX_LIBRARY;QT_PLUGIN;]]></Span><Span Background="LightCoral"><![CDATA[QT_PRINTSUPPORT_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_HELP_LIB;QT_UITOOLS_LIB;QT_DESIGNER_LIB;QT_UIPLUGIN_LIB;QT_WIDGETS_LIB;QT_GUI_LIB;QT_SQL_LIB;QT_XMLPATTERNS_LIB;QT_NETWORK_LIB;QT_XML_LIB;QT_SCRIPT_LIB;QT_SCRIPTTOOLS_LIB;QT_CORE_LIB;QDESIGNER_EXPORT_WIDGETS;]]></Span><Span><![CDATA[_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADSPATIALINDEX_LIBRARY;QT_PLUGIN;]]></Span><Span><![CDATA[_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+    <Paragraph FontSize="20" FontWeight="Bold" Margin="12">
+      <Span><![CDATA[🡺 Adding Qt module names to QtModules project property]]></Span>
+    </Paragraph>
+    <Table CellSpacing="0" BorderBrush="Gray" BorderThickness="0.5">
+      <Table.Columns>
+        <TableColumn />
+        <TableColumn />
+      </Table.Columns>
+      <TableRowGroup>
+        <TableRow Background="Orange">
+          <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
+            <Paragraph Margin="10,5" FontWeight="Bold">
+              <Span><![CDATA[D:\Source\qcad-qt\src\spatialindex\qcadspatialindex.vcxproj]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtModules>core;xml;sql;opengl;network;gui;svg;designer;script;help;xmlpatterns;scripttools;uitools;widgets;printsupport;uiplugin</QtModules>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell ColumnSpan="2" Background="WhiteSmoke" BorderBrush="Gray" BorderThickness="0.5" />
+        </TableRow>
+        <TableRow>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0" />
+          </TableCell>
+          <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
+            <Paragraph FontFamily="Consolas" Margin="4, 0">
+              <Span Background="LightGreen"><![CDATA[    <QtModules>core;xml;sql;opengl;network;gui;svg;designer;script;help;xmlpatterns;scripttools;uitools;widgets;printsupport;uiplugin</QtModules>]]></Span>
+            </Paragraph>
+          </TableCell>
+        </TableRow>
+      </TableRowGroup>
+    </Table>
+  </Section>
+  <Section>
+    <Paragraph />
+  </Section>
+</FlowDocument>
+<!--sNS06Q2r4px3Edqfv1XTLaaRCcGkEpNQ9HPvD9zqExQ=-->

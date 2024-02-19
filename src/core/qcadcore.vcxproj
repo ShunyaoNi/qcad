@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{541F4E7F-D007-3A89-BC6A-652C381AED4F}</ProjectGuid>
+    <RootNamespace>qcadcore</RootNamespace>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.22621.0</WindowsTargetPlatformMinVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <OutputDirectory>..\..\release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>qcadcore</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v142</PlatformToolset>
+    <OutputDirectory>..\..\debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>qcadcore</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>5.15.2_msvc2019_64</QtInstall>
+    <QtModules>core;xml;sql;opengl;network;gui;svg;designer;script;help;xmlpatterns;scripttools;uitools;widgets;printsupport;concurrent;uiplugin</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>5.15.2_msvc2019_64</QtInstall>
+    <QtModules>core;xml;sql;opengl;network;gui;svg;designer;script;help;xmlpatterns;scripttools;uitools;widgets;printsupport;concurrent;uiplugin</QtModules>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qcadcore</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\..\debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qcadcore</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;math;..\grid;..\snap;..\gui;..\entity;..\operations;..\scripting;..\stemmer;..\scripting\ecmaapi;..\scripting\ecmaapi\generated;..\scripting\ecmaapi\adapters;..\io\dxf;..\spatialindex;..\3rdparty;D:/Source/qcad-qt/src/zip;..\3rdparty\legacy\spatialindexnavel;C:\QT\5.15.2\MSVC2019_64\include;C:\QT\5.15.2\MSVC2019_64\include\QtPrintSupport;C:\QT\5.15.2\MSVC2019_64\include\QtSvg;C:\QT\5.15.2\MSVC2019_64\include\QtOpenGL;C:\QT\5.15.2\MSVC2019_64\include\QtHelp;C:\QT\5.15.2\MSVC2019_64\include\QtUiTools;C:\QT\5.15.2\MSVC2019_64\include\QtDesigner;C:\QT\5.15.2\MSVC2019_64\include\QtUiPlugin;C:\QT\5.15.2\MSVC2019_64\include\QtWidgets;C:\QT\5.15.2\MSVC2019_64\include\QtGui;C:\QT\5.15.2\MSVC2019_64\include\QtANGLE;C:\QT\5.15.2\MSVC2019_64\include\QtSql;C:\QT\5.15.2\MSVC2019_64\include\QtXmlPatterns;C:\QT\5.15.2\MSVC2019_64\include\QtNetwork;C:\QT\5.15.2\MSVC2019_64\include\QtXml;C:\QT\5.15.2\MSVC2019_64\include\QtScript;C:\QT\5.15.2\MSVC2019_64\include\QtScriptTools;C:\QT\5.15.2\MSVC2019_64\include\QtConcurrent;C:\QT\5.15.2\MSVC2019_64\include\QtCore;release;/include;C:\QT\5.15.2\MSVC2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADCORE_LIBRARY;NDEBUG;QT_NO_DEBUG;QT_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opennurbs.lib;zlib.lib;Rpcrt4.lib;Advapi32.lib;user32.lib;gdi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\Source\qcad-qt\release;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\qcadcore.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADCORE_LIBRARY;NDEBUG;QT_NO_DEBUG;QT_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>D:/Source/qcad-qt/src/core/$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>$(Configuration)</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>core</InitFuncName>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>$(Configuration)</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;.;math;..\grid;..\snap;..\gui;..\entity;..\operations;..\scripting;..\stemmer;..\scripting\ecmaapi;..\scripting\ecmaapi\generated;..\scripting\ecmaapi\adapters;..\io\dxf;..\spatialindex;..\3rdparty;D:/Source/qcad-qt/src/zip;..\3rdparty\legacy\spatialindexnavel;C:\QT\5.15.2\MSVC2019_64\include;C:\QT\5.15.2\MSVC2019_64\include\QtPrintSupport;C:\QT\5.15.2\MSVC2019_64\include\QtSvg;C:\QT\5.15.2\MSVC2019_64\include\QtOpenGL;C:\QT\5.15.2\MSVC2019_64\include\QtHelp;C:\QT\5.15.2\MSVC2019_64\include\QtUiTools;C:\QT\5.15.2\MSVC2019_64\include\QtDesigner;C:\QT\5.15.2\MSVC2019_64\include\QtUiPlugin;C:\QT\5.15.2\MSVC2019_64\include\QtWidgets;C:\QT\5.15.2\MSVC2019_64\include\QtGui;C:\QT\5.15.2\MSVC2019_64\include\QtANGLE;C:\QT\5.15.2\MSVC2019_64\include\QtSql;C:\QT\5.15.2\MSVC2019_64\include\QtXmlPatterns;C:\QT\5.15.2\MSVC2019_64\include\QtNetwork;C:\QT\5.15.2\MSVC2019_64\include\QtXml;C:\QT\5.15.2\MSVC2019_64\include\QtScript;C:\QT\5.15.2\MSVC2019_64\include\QtScriptTools;C:\QT\5.15.2\MSVC2019_64\include\QtConcurrent;C:\QT\5.15.2\MSVC2019_64\include\QtCore;debug;/include;C:\QT\5.15.2\MSVC2019_64\mkspecs\win32-msvc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADCORE_LIBRARY;QT_PLUGIN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opennurbs.lib;zlib.lib;Rpcrt4.lib;Advapi32.lib;user32.lib;gdi32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\Source\qcad-qt\debug;C:\openssl\lib;C:\Utils\my_sql\mysql-5.7.25-winx64\lib;C:\Utils\postgresql\pgsql\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkDLL>true</LinkDLL>
+      <OutputFile>$(OutDir)\qcadcore.dll</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_DISABLE_DEPRECATED_BEFORE=0x000000;QCAD_DLL;QCADCORE_LIBRARY;QT_PLUGIN;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>D:/Source/qcad-qt/src/core/$(Configuration)/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>$(Configuration)</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>core</InitFuncName>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>$(Configuration)</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="RAction.cpp" />
+    <ClCompile Include="math\RArc.cpp" />
+    <ClCompile Include="RArcExporter.cpp" />
+    <ClCompile Include="RBlock.cpp" />
+    <ClCompile Include="RBlockReferenceData.cpp" />
+    <ClCompile Include="RBlockReferenceEntity.cpp" />
+    <ClCompile Include="math\RBox.cpp" />
+    <ClCompile Include="math\RCircle.cpp" />
+    <ClCompile Include="RColor.cpp" />
+    <ClCompile Include="RCoordinateEvent.cpp" />
+    <ClCompile Include="RDebug.cpp" />
+    <ClCompile Include="RDimStyle.cpp" />
+    <ClCompile Include="RDimStyleData.cpp" />
+    <ClCompile Include="math\RDirected.cpp" />
+    <ClCompile Include="RDocument.cpp" />
+    <ClCompile Include="RDocumentInterface.cpp" />
+    <ClCompile Include="RDocumentVariables.cpp" />
+    <ClCompile Include="RDxfServices.cpp" />
+    <ClCompile Include="math\REllipse.cpp" />
+    <ClCompile Include="REntity.cpp" />
+    <ClCompile Include="REntityData.cpp" />
+    <ClCompile Include="REntityPickEvent.cpp" />
+    <ClCompile Include="RExporter.cpp" />
+    <ClCompile Include="RFileCache.cpp" />
+    <ClCompile Include="RFileExporter.cpp" />
+    <ClCompile Include="RFileExporterRegistry.cpp" />
+    <ClCompile Include="RFileImporter.cpp" />
+    <ClCompile Include="RFileImporterRegistry.cpp" />
+    <ClCompile Include="RFont.cpp" />
+    <ClCompile Include="RFontList.cpp" />
+    <ClCompile Include="RGraphicsScene.cpp" />
+    <ClCompile Include="RGraphicsView.cpp" />
+    <ClCompile Include="RGrid.cpp" />
+    <ClCompile Include="RGuiAction.cpp" />
+    <ClCompile Include="RImporter.cpp" />
+    <ClCompile Include="RInputEvent.cpp" />
+    <ClCompile Include="RLayer.cpp" />
+    <ClCompile Include="RLayerState.cpp" />
+    <ClCompile Include="RLayout.cpp" />
+    <ClCompile Include="math\RLine.cpp" />
+    <ClCompile Include="RLinetype.cpp" />
+    <ClCompile Include="RLinetypeList.cpp" />
+    <ClCompile Include="RLinetypeListImperial.cpp" />
+    <ClCompile Include="RLinetypeListMetric.cpp" />
+    <ClCompile Include="RLinetypePattern.cpp" />
+    <ClCompile Include="RLineweight.cpp" />
+    <ClCompile Include="RLinkedStorage.cpp" />
+    <ClCompile Include="RLocalPeer.cpp" />
+    <ClCompile Include="RLockedFile.cpp" />
+    <ClCompile Include="RLockedFile_win.cpp" />
+    <ClCompile Include="RMainWindow.cpp" />
+    <ClCompile Include="math\RMath.cpp" />
+    <ClCompile Include="math\RMatrix.cpp" />
+    <ClCompile Include="RMemoryStorage.cpp" />
+    <ClCompile Include="RMouseEvent.cpp" />
+    <ClCompile Include="RNavigationAction.cpp" />
+    <ClCompile Include="RObject.cpp" />
+    <ClCompile Include="RPainterPath.cpp" />
+    <ClCompile Include="RPainterPathDevice.cpp" />
+    <ClCompile Include="RPainterPathEngine.cpp" />
+    <ClCompile Include="RPainterPathExporter.cpp" />
+    <ClCompile Include="RPainterPathSource.cpp" />
+    <ClCompile Include="RPattern.cpp" />
+    <ClCompile Include="RPatternLine.cpp" />
+    <ClCompile Include="RPatternList.cpp" />
+    <ClCompile Include="RPatternListImperial.cpp" />
+    <ClCompile Include="RPatternListMetric.cpp" />
+    <ClCompile Include="RPluginLoader.cpp" />
+    <ClCompile Include="math\RPoint.cpp" />
+    <ClCompile Include="math\RPolyline.cpp" />
+    <ClCompile Include="RPropertyAttributes.cpp" />
+    <ClCompile Include="RPropertyChange.cpp" />
+    <ClCompile Include="RPropertyEditor.cpp" />
+    <ClCompile Include="RPropertyTypeId.cpp" />
+    <ClCompile Include="math\RRay.cpp" />
+    <ClCompile Include="math\RRefPoint.cpp" />
+    <ClCompile Include="RResourceList.cpp" />
+    <ClCompile Include="RS.cpp" />
+    <ClCompile Include="RSPlatform.cpp" />
+    <ClCompile Include="RScriptAction.cpp" />
+    <ClCompile Include="RScriptHandler.cpp" />
+    <ClCompile Include="RScriptHandlerRegistry.cpp" />
+    <ClCompile Include="RSettings.cpp" />
+    <ClCompile Include="math\RShape.cpp" />
+    <ClCompile Include="RShapesExporter.cpp" />
+    <ClCompile Include="RSingleApplication.cpp" />
+    <ClCompile Include="RSingleton.cpp" />
+    <ClCompile Include="RSpatialIndex.cpp" />
+    <ClCompile Include="RSpatialIndexSimple.cpp" />
+    <ClCompile Include="math\RSpline.cpp" />
+    <ClCompile Include="RStorage.cpp" />
+    <ClCompile Include="RStorageBlockSort.cpp" />
+    <ClCompile Include="RStorageLayerSort.cpp" />
+    <ClCompile Include="RTabletEvent.cpp" />
+    <ClCompile Include="RTextBasedData.cpp" />
+    <ClCompile Include="RTextBasedEntity.cpp" />
+    <ClCompile Include="math\RTextLabel.cpp" />
+    <ClCompile Include="RTextLayout.cpp" />
+    <ClCompile Include="RTextRenderer.cpp" />
+    <ClCompile Include="RThread.cpp" />
+    <ClCompile Include="RTransaction.cpp" />
+    <ClCompile Include="RTransactionStack.cpp" />
+    <ClCompile Include="math\RTransform.cpp" />
+    <ClCompile Include="math\RTriangle.cpp" />
+    <ClCompile Include="RUcs.cpp" />
+    <ClCompile Include="RUnit.cpp" />
+    <ClCompile Include="math\RVector.cpp" />
+    <ClCompile Include="RView.cpp" />
+    <ClCompile Include="RViewportData.cpp" />
+    <ClCompile Include="RViewportEntity.cpp" />
+    <ClCompile Include="RWheelEvent.cpp" />
+    <ClCompile Include="RWidget.cpp" />
+    <ClCompile Include="math\RXLine.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RAction.h" />
+    <ClInclude Include="RActionAdapter.h" />
+    <ClInclude Include="math\RArc.h" />
+    <ClInclude Include="RArcExporter.h" />
+    <ClInclude Include="RBlock.h" />
+    <ClInclude Include="RBlockListener.h" />
+    <ClInclude Include="RBlockReferenceData.h" />
+    <ClInclude Include="RBlockReferenceEntity.h" />
+    <ClInclude Include="math\RBox.h" />
+    <ClInclude Include="math\RCircle.h" />
+    <ClInclude Include="RColor.h" />
+    <ClInclude Include="RColorCodes.h" />
+    <ClInclude Include="RCommandEvent.h" />
+    <ClInclude Include="RCoordinateEvent.h" />
+    <ClInclude Include="RCoordinateListener.h" />
+    <ClInclude Include="RDebug.h" />
+    <ClInclude Include="RDimStyle.h" />
+    <ClInclude Include="RDimStyleData.h" />
+    <ClInclude Include="RDimStyleProxy.h" />
+    <ClInclude Include="math\RDirected.h" />
+    <ClInclude Include="RDocument.h" />
+    <ClInclude Include="RDocumentInterface.h" />
+    <ClInclude Include="RDocumentVariables.h" />
+    <ClInclude Include="RDxfServices.h" />
+    <ClInclude Include="math\REllipse.h" />
+    <ClInclude Include="math\REllipseProxy.h" />
+    <ClInclude Include="REntity.h" />
+    <ClInclude Include="REntityData.h" />
+    <ClInclude Include="REntityExportListener.h" />
+    <ClInclude Include="REntityPickEvent.h" />
+    <ClInclude Include="math\RExplodable.h" />
+    <ClInclude Include="RExportListener.h" />
+    <ClInclude Include="RExporter.h" />
+    <ClInclude Include="RFileCache.h" />
+    <ClInclude Include="RFileExporter.h" />
+    <ClInclude Include="RFileExporterFactory.h" />
+    <ClInclude Include="RFileExporterRegistry.h" />
+    <ClInclude Include="RFileImporter.h" />
+    <ClInclude Include="RFileImporterFactory.h" />
+    <ClInclude Include="RFileImporterRegistry.h" />
+    <ClInclude Include="RFocusListener.h" />
+    <ClInclude Include="RFont.h" />
+    <ClInclude Include="RFontList.h" />
+    <ClInclude Include="RGlobal.h" />
+    <ClInclude Include="RGraphicsScene.h" />
+    <ClInclude Include="RGraphicsView.h" />
+    <ClInclude Include="RGrid.h" />
+    <QtMoc Include="RGuiAction.h" />
+    <ClInclude Include="RImportListener.h" />
+    <ClInclude Include="RImporter.h" />
+    <ClInclude Include="RInputEvent.h" />
+    <ClInclude Include="RInterTransactionListener.h" />
+    <ClInclude Include="RLayer.h" />
+    <ClInclude Include="RLayerListener.h" />
+    <ClInclude Include="RLayerState.h" />
+    <ClInclude Include="RLayout.h" />
+    <ClInclude Include="math\RLine.h" />
+    <ClInclude Include="RLinetype.h" />
+    <ClInclude Include="RLinetypeList.h" />
+    <ClInclude Include="RLinetypeListImperial.h" />
+    <ClInclude Include="RLinetypeListMetric.h" />
+    <ClInclude Include="RLinetypePattern.h" />
+    <ClInclude Include="RLineweight.h" />
+    <ClInclude Include="RLinkedStorage.h" />
+    <QtMoc Include="RLocalPeer.h" />
+    <ClInclude Include="RLockedFile.h" />
+    <ClInclude Include="RMainWindow.h" />
+    <ClInclude Include="math\RMath.h" />
+    <ClInclude Include="math\RMatrix.h" />
+    <ClInclude Include="RMemoryStorage.h" />
+    <ClInclude Include="RMessageHandler.h" />
+    <ClInclude Include="RMetaTypes.h" />
+    <ClInclude Include="RModifiedListener.h" />
+    <ClInclude Include="RMouseCoordinateListener.h" />
+    <ClInclude Include="RMouseEvent.h" />
+    <ClInclude Include="RNavigationAction.h" />
+    <ClInclude Include="RNewDocumentListener.h" />
+    <ClInclude Include="RNonCopyable.h" />
+    <ClInclude Include="RObject.h" />
+    <ClInclude Include="ROperation.h" />
+    <ClInclude Include="RPainterPath.h" />
+    <ClInclude Include="RPainterPathDevice.h" />
+    <ClInclude Include="RPainterPathEngine.h" />
+    <ClInclude Include="RPainterPathExporter.h" />
+    <ClInclude Include="RPainterPathSource.h" />
+    <ClInclude Include="RPaletteListener.h" />
+    <ClInclude Include="RPattern.h" />
+    <ClInclude Include="RPatternLine.h" />
+    <ClInclude Include="RPatternList.h" />
+    <ClInclude Include="RPatternListImperial.h" />
+    <ClInclude Include="RPatternListMetric.h" />
+    <ClInclude Include="RPenListener.h" />
+    <ClInclude Include="RPluginInfo.h" />
+    <ClInclude Include="RPluginInterface.h" />
+    <ClInclude Include="RPluginLoader.h" />
+    <ClInclude Include="math\RPoint.h" />
+    <ClInclude Include="math\RPolyline.h" />
+    <ClInclude Include="math\RPolylineProxy.h" />
+    <ClInclude Include="RPreferencesListener.h" />
+    <ClInclude Include="RProgressHandler.h" />
+    <ClInclude Include="RProperty.h" />
+    <ClInclude Include="RPropertyAttributes.h" />
+    <ClInclude Include="RPropertyChange.h" />
+    <ClInclude Include="RPropertyEditor.h" />
+    <ClInclude Include="RPropertyEvent.h" />
+    <ClInclude Include="RPropertyListener.h" />
+    <ClInclude Include="RPropertyTypeId.h" />
+    <ClInclude Include="math\RRay.h" />
+    <ClInclude Include="math\RRefPoint.h" />
+    <ClInclude Include="RRequireHeap.h" />
+    <ClInclude Include="RResourceList.h" />
+    <ClInclude Include="RRuler.h" />
+    <QtMoc Include="RRunner.h" />
+    <ClInclude Include="RS.h" />
+    <ClInclude Include="RScriptAction.h" />
+    <ClInclude Include="RScriptHandler.h" />
+    <ClInclude Include="RScriptHandlerRegistry.h" />
+    <ClInclude Include="RSelectionChangedEvent.h" />
+    <ClInclude Include="RSelectionListener.h" />
+    <ClInclude Include="RSettings.h" />
+    <ClInclude Include="math\RShape.h" />
+    <ClInclude Include="math\RShapeProxy.h" />
+    <ClInclude Include="RShapesExporter.h" />
+    <QtMoc Include="RSingleApplication.h" />
+    <ClInclude Include="RSingleton.h" />
+    <ClInclude Include="RSnap.h" />
+    <ClInclude Include="RSnapRestriction.h" />
+    <ClInclude Include="RSpatialIndex.h" />
+    <ClInclude Include="RSpatialIndexSimple.h" />
+    <ClInclude Include="RSpatialIndexVisitor.h" />
+    <ClInclude Include="math\RSpline.h" />
+    <ClInclude Include="math\RSplineProxy.h" />
+    <ClInclude Include="RStorage.h" />
+    <ClInclude Include="RStorageBlockSort.h" />
+    <ClInclude Include="RStorageLayerSort.h" />
+    <ClInclude Include="RTabletEvent.h" />
+    <ClInclude Include="RTerminateEvent.h" />
+    <ClInclude Include="RTextBasedData.h" />
+    <ClInclude Include="RTextBasedEntity.h" />
+    <ClInclude Include="math\RTextLabel.h" />
+    <ClInclude Include="RTextLayout.h" />
+    <ClInclude Include="RTextRenderer.h" />
+    <QtMoc Include="RThread.h" />
+    <ClInclude Include="RTransaction.h" />
+    <ClInclude Include="RTransactionEvent.h" />
+    <ClInclude Include="RTransactionListener.h" />
+    <ClInclude Include="RTransactionStack.h" />
+    <ClInclude Include="math\RTransform.h" />
+    <ClInclude Include="math\RTransformOp.h" />
+    <ClInclude Include="math\RTriangle.h" />
+    <ClInclude Include="RUcs.h" />
+    <ClInclude Include="RUcsListener.h" />
+    <ClInclude Include="RUnit.h" />
+    <ClInclude Include="math\RVector.h" />
+    <ClInclude Include="RVersion.h" />
+    <ClInclude Include="RView.h" />
+    <ClInclude Include="RViewFocusListener.h" />
+    <ClInclude Include="RViewListener.h" />
+    <ClInclude Include="RViewportData.h" />
+    <ClInclude Include="RViewportEntity.h" />
+    <ClInclude Include="RWheelEvent.h" />
+    <QtMoc Include="RWidget.h" />
+    <ClInclude Include="math\RXLine.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\QT\5.15.2\MSVC2019_64\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -Zi -MDd -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E C:\QT\5.15.2\MSVC2019_64\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\QT\5.15.2\MSVC2019_64\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -O2 -MD -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E C:\QT\5.15.2\MSVC2019_64\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="resources\core.qrc" />
+    <None Include="resources\linetype_border.svg" />
+    <None Include="resources\linetype_border2.svg" />
+    <None Include="resources\linetype_borderx2.svg" />
+    <None Include="resources\linetype_byblock.svg" />
+    <None Include="resources\linetype_bylayer.svg" />
+    <None Include="resources\linetype_center.svg" />
+    <None Include="resources\linetype_center2.svg" />
+    <None Include="resources\linetype_centerx2.svg" />
+    <None Include="resources\linetype_continuous.svg" />
+    <None Include="resources\linetype_dashdot.svg" />
+    <None Include="resources\linetype_dashdot2.svg" />
+    <None Include="resources\linetype_dashdotx2.svg" />
+    <None Include="resources\linetype_dashed.svg" />
+    <None Include="resources\linetype_dashed2.svg" />
+    <None Include="resources\linetype_dashedx2.svg" />
+    <None Include="resources\linetype_divide.svg" />
+    <None Include="resources\linetype_divide2.svg" />
+    <None Include="resources\linetype_dividex2.svg" />
+    <None Include="resources\linetype_dot.svg" />
+    <None Include="resources\linetype_dot2.svg" />
+    <None Include="resources\linetype_dotx2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="core.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

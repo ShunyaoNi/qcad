@@ -7,9 +7,14 @@
 #include "RSettings.h"
 #include "RVersion.h"
 
+
+/// <summary>
+/// ≥ı ºªØ
+/// </summary>
+/// <returns></returns>
 bool RScriptsPlugin::init() {
 #ifdef QT_DEBUG
-    qDebug() << "RScriptsPlugin::init";
+    qDebug() << "RScriptsPlugin::init ???";
 #endif
 
     return true;
